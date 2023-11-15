@@ -1,7 +1,6 @@
 name: example-environment
 channels:
-  #- conda-forge
-  - pip
+  - conda-forge
 dependencies:
   - python=3.11
   - ipywidgets
