@@ -1,5 +1,11 @@
-ipywidgets
-numpy
-matplotlib
-IPython
-voila
+name: example-environment
+channels:
+  #- conda-forge
+  - pip
+dependencies:
+  - python=3.11
+  - ipywidgets
+  - numpy
+  - matplotlib
+  - IPython
+  - voila
